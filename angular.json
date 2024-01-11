@@ -13,7 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies": ["highcharts/highcharts-more.src"],
+            "allowedCommonJsDependencies": ["highcharts/highcharts-more.src",
+            "highcharts/modules/solid-gauge"],
             "outputPath": "dist/emission-insight",
             "index": "src/index.html",
             "main": "src/main.ts",
